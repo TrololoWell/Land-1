@@ -99,3 +99,49 @@ body{
    background: rgba(2,202,2,0.95);
    transform: 0.3s all ease;
 }
+
+main{
+   display: block;
+}
+
+.second_section{
+ display: block;
+}
+.container_sp{
+   margin-top: 22px;
+   max-width: 1600px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0;
+}
+
+.part1{
+   position: absolute;
+	height: 900px;
+	width: 50%;
+	outline: none;
+	background-color: #444C38;
+	left: 0;
+}
+
+.part2{
+   position: absolute;
+	height: 900px;
+	width: 50%;
+	outline: none;
+	background-color: #8A9A58;
+   background-size: 900px;
+	right: 0;
+}
+
+.part_img{
+   display: block;
+   height: 530px;
+   width: 700px;
+   margin: 185px auto;
+  
+}
+
+ .third_section{
+    display: block;
+ }
