@@ -10,11 +10,23 @@ body{
    margin: 0 auto;
    padding: 0;
 }
+.wrapper{ 
+  
+   margin: 0 auto;
+   margin-top: 43px;
+   background-image: url(/Land/img/andy-kelly-5APBLfC2hUs-unsplash.jpg);
+   height: 935px;
+   width: 1600px;
+   background-position: center center;
+   background-repeat: no-repeat;
+   overflow: hidden;
+   background-size: cover;  
+}
 .top_item{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin-top: 43px;
+  
 }
 .top_item_logo{
    display: flex;
@@ -28,33 +40,30 @@ body{
 }
 
 .top_item_contact{
-  color: black; 
+  color: rgb(255, 255, 255); 
   font-style: bold;
   font-weight: 700;
   font-size: 20px;
+  margin-right: 50px;
 }
 
 .contact_mail{
-   color: black;
+   color: rgb(255, 255, 255);
 }
 
 .main_item{
    margin: 0 auto;
-   background-image: url(/Land/img/andy-kelly-5APBLfC2hUs-unsplash.jpg);
-   height: 831px;
-   width: 1170px;
-   background-position: center center;
-   background-repeat: no-repeat;
-   overflow: hidden;
-   background-size: cover;  
+  
+
 }
 
 .main_item_info{
-   position: absolute;
+   display: block;
    width: 525px;
    height: 344px;
    margin-left: 100px;
    margin-top: 175px;
+    margin-bottom: 100px;
 }
 
 .main_item_info_title{
@@ -69,15 +78,22 @@ body{
 .main_item_info_subtitle{
    width: 500px;
    height: 120px;
-   font-style: normal;
+   font-style: bold;
    font-weight: 500;
    font-size: 24px;
    line-height: 40px;
-   color: #F3F3F3;
-   margin-bottom: 74px;
+   color: #000000;
+  
 }
 
+
 .main_item_info_btn{
+   margin: 0 auto;
+   display: block;
+
+
+
+
    width: 314px;
    height: 86px;
    background: rgba(0, 0, 0, 0.4);
@@ -104,16 +120,20 @@ main{
    display: block;
 }
 
+.container_second{
+   max-width: 1600px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0;
+}
 .second_section{
    display: inline-flex;
    max-width: 1600px;
    margin-top: 22px;
-   margin: 22px 150px 0 150px ;
 }
 
 .part1{
    display: flex;
-	
 	width: 800px;
 	outline: none;
 	background-color: #444C38;
@@ -123,7 +143,6 @@ main{
 
 .part2{
    display: flex;
-	
 	width: 800px;
 	outline: none;
 	background-color: #8A9A58;
@@ -154,7 +173,9 @@ main{
  }
 
  .third_section_main_item_part{
+   background: #FAFBFD;
    margin-top: 90px;
+   padding: 0 15px 0 15px;
    display: flex;
    align-items: center;
    width: 333px;
